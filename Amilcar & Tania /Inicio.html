@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Direcionador</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" type="text/css" href="" />
+
+   <style type = "text/css">
+       #container
+       {
+         width: 960px;
+         height: 600px;
+         background-color:gray;
+         margin: 0 auto 0 auto;
+       }
+
+       #btn
+       {
+         height: 20px;
+         width: 100px;
+         margin: -20px -20px;
+         position: relative;
+         top: 50%;
+         left: 50%;   
+       }
+   </style>
+</head>
+<body>
+    <div id = "container">
+        <button name = "btn" id = "btn" class="float-left submit-button">Meu primeiro trabalho com javascript</button>
+        <script type="text/javascript">
+            document.getElementById("btn").onclick = function ()
+            {
+                location.href = "templates/index.html";
+
+            };
+        </script>
+    </div>
+</body>
+</html>
